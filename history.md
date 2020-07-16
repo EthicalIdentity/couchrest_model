@@ -1,5 +1,8 @@
 # CouchRest Model Change History
 
+## 2.2.0.beta4 - 2020-07-16
+  * Updating Hashdiff Gem to remove warning ([PR](https://github.com/couchrest/couchrest_model/pull/229) @jonmchan).
+
 ## 2.2.0.beta3 - 2020-05-05
   * Do not load files inside app/models/concerns on CouchDB Design Document migrations ([PR](https://github.com/couchrest/couchrest_model/pull/) @dpzaba). This helps to support Rails versions from 4.1 to 5.2.3.
 
